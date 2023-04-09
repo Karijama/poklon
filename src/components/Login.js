@@ -19,14 +19,14 @@ const Login = () => {
                     id: user.uid,
                     token: user.accessToken,
                 }));
-                nav('/');
+                nav('/main');
             })
             .catch(() => alert('Invalid user!'))
     }
 
     return (
         <Form
-            title="sign in"
+            title="Войти"
             handleClick={handleLogin}
         />
     )

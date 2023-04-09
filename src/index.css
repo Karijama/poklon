@@ -25,3 +25,9 @@ body {
   margin: 0;
 }
 
+nav{
+  display: none;
+}
+nav.open{
+
+}
